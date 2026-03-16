@@ -1,36 +1,44 @@
-/* app.js
-   Simplified version
-   Controls side menu only
-*/
+// MENU CONTROLLER
 
 const menuBtn = document.getElementById("menuBtn");
 const sideMenu = document.getElementById("sideMenu");
 const menuCloseTop = document.getElementById("menuCloseTop");
 
-function closeMenu(){
-  sideMenu.setAttribute("aria-hidden","true");
-}
-
+// open menu
 if(menuBtn){
-  menuBtn.addEventListener("click", () => {
-    const state = sideMenu.getAttribute("aria-hidden");
-    sideMenu.setAttribute("aria-hidden", state === "false" ? "true" : "false");
-  });
+menuBtn.addEventListener("click", () => {
+sideMenu.setAttribute("aria-hidden","false");
+});
 }
 
+// close menu
 if(menuCloseTop){
-  menuCloseTop.addEventListener("click", closeMenu);
+menuCloseTop.addEventListener("click", () => {
+sideMenu.setAttribute("aria-hidden","true");
+});
 }
 
-document.addEventListener("click", (e)=>{
-  if(!sideMenu.contains(e.target) && !menuBtn.contains(e.target)){
-    closeMenu();
-  }
+// close if clicking outside
+document.addEventListener("click",(e)=>{
+
+if(!sideMenu) return;
+
+if(
+!sideMenu.contains(e.target) &&
+!menuBtn.contains(e.target)
+){
+sideMenu.setAttribute("aria-hidden","true");
+}
+
 });
 
-/* series card scroll animation */
+
+
+// ARCHIVE CARD SCROLL ANIMATION
 
 const cards = document.querySelectorAll(".series-card");
+
+if(cards.length){
 
 const observer = new IntersectionObserver(entries => {
 
@@ -44,6 +52,10 @@ entry.target.classList.add("show");
 
 });
 
+},{
+threshold:0.2
 });
 
 cards.forEach(card => observer.observe(card));
+
+}

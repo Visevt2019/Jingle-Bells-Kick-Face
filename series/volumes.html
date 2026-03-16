@@ -1,14 +1,152 @@
-<!DOCTYPE html>
+```html
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JBKF Volumes</title>
+
 <link rel="stylesheet" href="../styles.css">
+
+<style>
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#0f0f0f;
+color:white;
+margin:0;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
+
+.site-header{
+background:black;
+padding:15px 25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.brand{
+font-weight:bold;
+font-size:20px;
+}
+
+.menu-btn{
+font-size:22px;
+background:none;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.side-menu{
+position:fixed;
+right:0;
+top:0;
+height:100%;
+width:260px;
+background:#000;
+padding:25px;
+transform:translateX(100%);
+transition:.3s;
+}
+
+.side-menu[aria-hidden="false"]{
+transform:translateX(0);
+}
+
+.menu-list{
+list-style:none;
+padding:0;
+}
+
+.menu-list li{
+margin:15px 0;
+}
+
+.menu-list a{
+color:white;
+text-decoration:none;
+}
+
+.menu-close-top{
+background:none;
+border:none;
+color:white;
+font-size:20px;
+margin-bottom:20px;
+cursor:pointer;
+}
+
+.chapter-list a{
+display:block;
+padding:6px;
+color:#00e5ff;
+text-decoration:none;
+}
+
+.chapter-list a:hover{
+text-decoration:underline;
+}
+
+section{
+margin-top:50px;
+}
+
+pre{
+white-space:pre-wrap;
+line-height:1.6;
+}
+
+audio{
+margin-top:15px;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Volumes</h1>
+<header class="site-header">
+
+<div class="brand">JBKF</div>
+
+<button id="menuBtn" class="menu-btn">☰</button>
+
+</header>
+
+
+<aside id="sideMenu" class="side-menu" aria-hidden="true">
+
+<button id="menuCloseTop" class="menu-close-top">✕</button>
+
+<ul class="menu-list">
+
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+
+</ul>
+
+</aside>
+
+
+<main class="container">
+
+<h1>JBKF Volumes</h1>
+
+<p>Main story volumes of the Jingle Bells Kick Face universe.</p>
+
+<h2>Chapters</h2>
 
 <ul class="chapter-list">
 
@@ -24,12 +162,13 @@
 
 </ul>
 
+
 <section id="v1">
 
 <h2>V1</h2>
 
-<p><strong>By Parin</strong><br>
-20 August 2023</p>
+<p><b>Author:</b> Parin<br>
+<b>Date:</b> 20 August 2023</p>
 
 <pre>
 Jingle bells, jingle bells, jingle all the way;
@@ -38,6 +177,28 @@ To kick Monica’s face.
 Hey, jingle bells jingle bells, jingle all the way;
 But Santa Claus got;
 Kicked on his face.
+
+Santa Claus was angry, he went home;
+He returned and Monica;
+Made him fall on his face.
+Santa Claus was sad, he went home;
+He never returned and;
+Tied His magical shoe lace.
+Hey, jingle bells, jingle bells, jingle all the way;
+
+Then everyone kicked;
+Monica out of her home.
+Hey, jingle bells, jingle bells, jingle all the way;
+Monica went to Santa’s home
+Then Santa jumped
+From the roof on her face.
+
+Monica was angry, she got up;
+And gave two tight slaps on his face.
+Santa Claus was red, he got up
+And kidnapped Monica inside his home.
+Hey, jingle bells, jingle bells, jingle all the way;
+From here the great story started!
 </pre>
 
 <audio controls>
@@ -46,12 +207,13 @@ Kicked on his face.
 
 </section>
 
+
 <section id="v2p1">
 
 <h2>V2 Part 1</h2>
 
-<p><strong>By Aaroh</strong><br>
-5 October 2023</p>
+<p><b>Author:</b> Aaroh<br>
+<b>Date:</b> 5 October 2023</p>
 
 <pre>
 Somewhere in the North Pole...
@@ -61,5 +223,138 @@ Paraoh:-Come on Monica, let's ask Santa about the Poem he meant about.
 
 </section>
 
+
+<section id="v2p2">
+
+<h2>V2 Part 2</h2>
+
+<p><b>Author:</b> Aaroh</p>
+
+<pre>
+Santa was shocked when Monica and Paraoh asked him
+about the strange poem.
+
+Santa:- I only sang what the bells told me...
+</pre>
+
+</section>
+
+
+<section id="v2p3">
+
+<h2>V2 Part 3</h2>
+
+<p><b>Author:</b> Aaroh</p>
+
+<pre>
+The mystery deepened.
+
+Paraoh realized the bells were not ordinary bells,
+but relics that controlled strange Christmas forces.
+</pre>
+
+</section>
+
+
+<section id="v2p4">
+
+<h2>V2 Part 4</h2>
+
+<p><b>Author:</b> Aaroh</p>
+
+<pre>
+Monica and Paraoh finally reached the chamber
+where the Jingle Core was hidden.
+
+The bells started ringing violently.
+</pre>
+
+</section>
+
+
+<section id="v3">
+
+<h2>V3</h2>
+
+<p><b>Author:</b> Parin</p>
+
+<pre>
+The chaos spreads beyond the North Pole.
+
+New characters begin appearing,
+and the legend of the Kick Face prophecy grows.
+</pre>
+
+</section>
+
+
+<section id="v4">
+
+<h2>V4</h2>
+
+<p><b>Author:</b> Parin</p>
+
+<pre>
+The bell energy begins affecting the world.
+
+Cities hear mysterious jingles in the night,
+and Santa realizes something bigger is happening.
+</pre>
+
+</section>
+
+
+<section id="v5">
+
+<h2>V5</h2>
+
+<p><b>Author:</b> Parin</p>
+
+<pre>
+The characters unite to investigate the bell phenomenon.
+
+The Kick Face legend begins connecting multiple timelines.
+</pre>
+
+</section>
+
+
+<section id="v6">
+
+<h2>V6</h2>
+
+<p><b>Author:</b> Parin</p>
+
+<pre>
+The sixth volume brings the story closer to the
+larger JBKF universe.
+
+Secrets about the bells finally begin to surface.
+</pre>
+
+</section>
+
+</main>
+
+
+<script>
+
+const menuBtn = document.getElementById("menuBtn");
+const sideMenu = document.getElementById("sideMenu");
+const menuCloseTop = document.getElementById("menuCloseTop");
+
+menuBtn.onclick = () => {
+const state = sideMenu.getAttribute("aria-hidden");
+sideMenu.setAttribute("aria-hidden", state==="false" ? "true":"false");
+};
+
+menuCloseTop.onclick = () => {
+sideMenu.setAttribute("aria-hidden","true");
+};
+
+</script>
+
 </body>
 </html>
+```
+

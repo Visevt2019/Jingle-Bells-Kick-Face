@@ -1,48 +1,120 @@
-<!DOCTYPE html>
+```html
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>JBKF Archive</title>
+
 <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
+<header class="site-header">
+<div class="brand">JBKF</div>
+<button id="menuBtn" class="menu-btn">☰</button>
+</header>
+
+
+<aside id="sideMenu" class="side-menu" aria-hidden="true">
+
+<button id="menuCloseTop" class="menu-close-top">✕</button>
+
+<ul class="menu-list">
+<li><a href="index.html">Home</a></li>
+</ul>
+
+</aside>
+
+
+<main class="container">
+
 <h1>JBKF Archive</h1>
 
-<div class="grid">
+<div class="series-list">
 
-<a class="card" href="series/volumes.html">
+<a class="series-card" href="series/volumes.html">
+
+<img src="images/volumes.jpg">
+
+<div class="series-info">
 <h2>Volumes</h2>
-<p>V1 – V6</p>
+<p>Main storyline of the JBKF universe.</p>
+</div>
+
 </a>
 
-<a class="card" href="series/classics.html">
+
+<a class="series-card" href="series/classics.html">
+
+<img src="images/classics.jpg">
+
+<div class="series-info">
 <h2>Classics</h2>
-<p>C1 – C7</p>
+<p>Classic stories and early lore.</p>
+</div>
+
 </a>
 
-<a class="card" href="series/brutnut.html">
+
+<a class="series-card" href="series/brutnut.html">
+
+<img src="images/brutnut.jpg">
+
+<div class="series-info">
 <h2>BrutNut Shorts</h2>
-<p>Nut 1 – Nut 3</p>
+<p>Short chaotic episodes.</p>
+</div>
+
 </a>
 
-<a class="card" href="series/revivation.html">
-<h2>Revivation Series</h2>
-<p>Rv1 – Rv3</p>
+
+<a class="series-card" href="series/revivation.html">
+
+<img src="images/revivation.jpg">
+
+<div class="series-info">
+<h2>Revivation</h2>
+<p>Revival timeline events.</p>
+</div>
+
 </a>
 
-<a class="card" href="series/hyphnyxys.html">
+
+<a class="series-card" href="series/hyphnyxys.html">
+
+<img src="images/hyphnyxys.jpg">
+
+<div class="series-info">
 <h2>Hyphnyxys</h2>
-<p>Hx1 – Hx7</p>
+<p>Alternate dimension saga.</p>
+</div>
+
 </a>
 
-<a class="card" href="series/kickmus.html">
+
+<a class="series-card" href="series/kickmus.html">
+
+<img src="images/kickmus.jpg">
+
+<div class="series-info">
 <h2>Kickmus</h2>
-<p>Ks0 – Ks9</p>
+<p>Scientific Christmas chaos.</p>
+</div>
+
 </a>
+
 
 </div>
 
+</main>
+
+<script src="app.js"></script>
+
 </body>
 </html>
+```
+

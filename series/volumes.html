@@ -3,112 +3,108 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JBKF Volumes</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>JBKF – Volumes</title>
 
 <link rel="stylesheet" href="../styles.css">
 
 <style>
 
-body{
-font-family:Arial,Helvetica,sans-serif;
-background:#0f0f0f;
-color:white;
-margin:0;
+/* page layout */
+
+.page-title{
+margin-bottom:10px;
 }
 
-.container{
-max-width:900px;
-margin:auto;
-padding:30px;
+.series-intro{
+opacity:.8;
+margin-bottom:30px;
 }
 
-.site-header{
-background:black;
-padding:15px 25px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
+/* chapter navigation list */
 
-.brand{
-font-weight:bold;
-font-size:20px;
-}
+.chapter-list{
 
-.menu-btn{
-font-size:22px;
-background:none;
-border:none;
-color:white;
-cursor:pointer;
-}
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
 
-.side-menu{
-position:fixed;
-right:0;
-top:0;
-height:100%;
-width:260px;
-background:#000;
-padding:25px;
-transform:translateX(100%);
-transition:.3s;
-}
+gap:12px;
 
-.side-menu[aria-hidden="false"]{
-transform:translateX(0);
-}
+margin-bottom:40px;
 
-.menu-list{
-list-style:none;
-padding:0;
-}
-
-.menu-list li{
-margin:15px 0;
-}
-
-.menu-list a{
-color:white;
-text-decoration:none;
-}
-
-.menu-close-top{
-background:none;
-border:none;
-color:white;
-font-size:20px;
-margin-bottom:20px;
-cursor:pointer;
 }
 
 .chapter-list a{
+
 display:block;
-padding:6px;
-color:#00e5ff;
+
+padding:10px;
+
+background:rgba(255,255,255,0.06);
+
+border-radius:10px;
+
+text-align:center;
+
 text-decoration:none;
+
+color:white;
+
+transition:.2s;
+
 }
 
 .chapter-list a:hover{
-text-decoration:underline;
+
+background:rgba(255,255,255,0.14);
+
 }
 
-section{
-margin-top:50px;
+/* chapter cards */
+
+.chapter-box{
+
+background:rgba(255,255,255,0.06);
+
+padding:22px;
+
+border-radius:14px;
+
+margin-bottom:35px;
+
+}
+
+.chapter-box h2{
+
+margin-top:0;
+
+}
+
+.chapter-meta{
+
+font-size:14px;
+
+opacity:.7;
+
+margin-bottom:15px;
+
 }
 
 pre{
+
 white-space:pre-wrap;
+
 line-height:1.6;
+
+font-family:inherit;
+
 }
 
 audio{
-margin-top:15px;
-}
 
-html{
-scroll-behavior:smooth;
+margin-top:15px;
+
 }
 
 </style>
@@ -142,33 +138,37 @@ scroll-behavior:smooth;
 
 <main class="container">
 
-<h1>JBKF Volumes</h1>
+<h1 class="page-title">Volumes</h1>
 
-<p>Main story volumes of the Jingle Bells Kick Face universe.</p>
+<p class="series-intro">
+Main storyline of the Jingle Bells Kick Face universe.
+</p>
+
 
 <h2>Chapters</h2>
 
-<ul class="chapter-list">
+<div class="chapter-list">
 
-<li><a href="#v1">V1</a></li>
-<li><a href="#v2p1">V2 Part 1</a></li>
-<li><a href="#v2p2">V2 Part 2</a></li>
-<li><a href="#v2p3">V2 Part 3</a></li>
-<li><a href="#v2p4">V2 Part 4</a></li>
-<li><a href="#v3">V3</a></li>
-<li><a href="#v4">V4</a></li>
-<li><a href="#v5">V5</a></li>
-<li><a href="#v6">V6</a></li>
+<a href="#v1">V1</a>
+<a href="#v2p1">V2 Part 1</a>
+<a href="#v2p2">V2 Part 2</a>
+<a href="#v2p3">V2 Part 3</a>
+<a href="#v2p4">V2 Part 4</a>
+<a href="#v3">V3</a>
+<a href="#v4">V4</a>
+<a href="#v5">V5</a>
+<a href="#v6">V6</a>
 
-</ul>
+</div>
 
 
-<section id="v1">
+<section id="v1" class="chapter-box">
 
 <h2>V1</h2>
 
-<p><b>Author:</b> Parin<br>
-<b>Date:</b> 20 August 2023</p>
+<div class="chapter-meta">
+Author: Parin • 20 August 2023
+</div>
 
 <pre>
 Jingle bells, jingle bells, jingle all the way;
@@ -208,62 +208,108 @@ From here the great story started!
 </section>
 
 
-<section id="v2p1">
+
+<section id="v2p1" class="chapter-box">
 
 <h2>V2 Part 1</h2>
 
-<p><b>Author:</b> Aaroh<br>
-<b>Date:</b> 5 October 2023</p>
+<div class="chapter-meta">
+Author: Aaroh • 5 October 2023
+</div>
 
 <pre>
 Somewhere in the North Pole...
 
 Paraoh:-Come on Monica, let's ask Santa about the Poem he meant about.
+
+Monica:-Alright let's go...
+
+Hark the heralds, the angels sing! tralalalalalalala. Glory to the new born king! tralalalalalalalala
+Kick Paraoh in the face, Monica doesn't tie her lace. Hark the heralds, the angels sing! To Kick them all in the face!
+
+Some fast-forward later..
+
+Santa:-I can't tell you about the poem! That's classified!
+
+Paraoh and Monica:-
+Please...
+
+Oh dear what a tragedy on November 26th. Monica didn't tie her shoe lace, Santa kicked her in the face.
+Paraoh asked classified info
+Santa kicked him with a Tango!
+
+Paraoh:-Revenge is a must! How dare he even have the ability to do this to me!
+The mech is almost made....
+But I need a test subject.
+Huh?!? What's this behind me?
+...The perfect test subject
 </pre>
 
 </section>
 
 
-<section id="v2p2">
+
+<section id="v2p2" class="chapter-box">
 
 <h2>V2 Part 2</h2>
 
-<p><b>Author:</b> Aaroh</p>
+<div class="chapter-meta">
+Author: Aaroh
+</div>
 
 <pre>
-Santa was shocked when Monica and Paraoh asked him
-about the strange poem.
+On the other side while Paraoh discovers a portal...
 
-Santa:- I only sang what the bells told me...
+Engineer Elfs:-We must upgrade Santa more! He will find the suit and destroy it!
+The status of the flying rotator ships show no problem and the facekicker elves are ready to fight!
+Even Mr.Reindeer is ready
+
+Mr.Reindeer:-Yes I am !
+I am the Reindeer Titan!
+
+Some upgrading of Santa later...
+
+Santa:-Let's find that suit, open the portal!
+[Santa looked inside and saw...Parin won't let me tell as that would be an additional character so...]
+Santa:-Nevermind...
+Dispatch the facekicker elves, the rotators and the
+flying sleighs!
+The Reindeer Titan will aid them!
 </pre>
 
 </section>
 
 
-<section id="v2p3">
+
+<section id="v2p3" class="chapter-box">
 
 <h2>V2 Part 3</h2>
 
-<p><b>Author:</b> Aaroh</p>
+<div class="chapter-meta">
+Author: Aaroh
+</div>
 
 <pre>
 The mystery deepened.
 
-Paraoh realized the bells were not ordinary bells,
+Paraoh realised the bells were not ordinary bells,
 but relics that controlled strange Christmas forces.
 </pre>
 
 </section>
 
 
-<section id="v2p4">
+
+<section id="v2p4" class="chapter-box">
 
 <h2>V2 Part 4</h2>
 
-<p><b>Author:</b> Aaroh</p>
+<div class="chapter-meta">
+Author: Aaroh
+</div>
 
 <pre>
-Monica and Paraoh finally reached the chamber
+Monica and Paraoh reached the chamber
 where the Jingle Core was hidden.
 
 The bells started ringing violently.
@@ -272,11 +318,14 @@ The bells started ringing violently.
 </section>
 
 
-<section id="v3">
+
+<section id="v3" class="chapter-box">
 
 <h2>V3</h2>
 
-<p><b>Author:</b> Parin</p>
+<div class="chapter-meta">
+Author: Parin
+</div>
 
 <pre>
 The chaos spreads beyond the North Pole.
@@ -288,27 +337,33 @@ and the legend of the Kick Face prophecy grows.
 </section>
 
 
-<section id="v4">
+
+<section id="v4" class="chapter-box">
 
 <h2>V4</h2>
 
-<p><b>Author:</b> Parin</p>
+<div class="chapter-meta">
+Author: Parin
+</div>
 
 <pre>
 The bell energy begins affecting the world.
 
 Cities hear mysterious jingles in the night,
-and Santa realizes something bigger is happening.
+and Santa realises something bigger is happening.
 </pre>
 
 </section>
 
 
-<section id="v5">
+
+<section id="v5" class="chapter-box">
 
 <h2>V5</h2>
 
-<p><b>Author:</b> Parin</p>
+<div class="chapter-meta">
+Author: Parin
+</div>
 
 <pre>
 The characters unite to investigate the bell phenomenon.
@@ -319,42 +374,30 @@ The Kick Face legend begins connecting multiple timelines.
 </section>
 
 
-<section id="v6">
+
+<section id="v6" class="chapter-box">
 
 <h2>V6</h2>
 
-<p><b>Author:</b> Parin</p>
+<div class="chapter-meta">
+Author: Parin
+</div>
 
 <pre>
-The sixth volume brings the story closer to the
-larger JBKF universe.
+The sixth volume pushes the story closer
+to the larger JBKF universe.
 
 Secrets about the bells finally begin to surface.
 </pre>
 
 </section>
 
+
 </main>
 
 
-<script>
-
-const menuBtn = document.getElementById("menuBtn");
-const sideMenu = document.getElementById("sideMenu");
-const menuCloseTop = document.getElementById("menuCloseTop");
-
-menuBtn.onclick = () => {
-const state = sideMenu.getAttribute("aria-hidden");
-sideMenu.setAttribute("aria-hidden", state==="false" ? "true":"false");
-};
-
-menuCloseTop.onclick = () => {
-sideMenu.setAttribute("aria-hidden","true");
-};
-
-</script>
+<script src="../mnu.js"></script>
 
 </body>
 </html>
 ```
-

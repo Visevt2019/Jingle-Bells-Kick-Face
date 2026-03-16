@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>JBKF – Hyphnyxys</title>
+
+<link rel="stylesheet" href="../styles.css">
+
+<style>
+
+.page-title{
+margin-bottom:10px;
+}
+
+.series-intro{
+opacity:.8;
+margin-bottom:30px;
+}
+
+.chapter-list{
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-bottom:40px;
+}
+
+.chapter-list a{
+display:block;
+padding:10px;
+background:rgba(255,255,255,0.06);
+border-radius:10px;
+text-align:center;
+text-decoration:none;
+color:black;
+transition:.2s;
+}
+
+.chapter-list a:hover{
+background:rgba(255,255,255,0.14);
+}
+
+.chapter-box{
+background:rgba(255,255,255,0.06);
+padding:22px;
+border-radius:14px;
+margin-bottom:35px;
+}
+
+.chapter-meta{
+font-size:14px;
+opacity:.7;
+margin-bottom:15px;
+}
+
+pre{
+white-space:pre-wrap;
+line-height:1.6;
+font-family:inherit;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="brand">JBKF</div>
+
+<button id="menuBtn" class="menu-btn">☰</button>
+
+</header>
+
+<aside id="sideMenu" class="side-menu" aria-hidden="true">
+
+<button id="menuCloseTop" class="menu-close-top">✕</button>
+
+<ul class="menu-list">
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+</ul>
+
+</aside>
+
+
+<main class="container">
+
+<h1 class="page-title">Hyphnyxys</h1>
+
+<p class="series-intro">
+Some story...
+</p>
+
+<h2>Chapters</h2>
+
+<div class="chapter-list">
+
+<a href="#hx1">The Beginning</a>
+<a href="#hx2">Moving Ahead</a>
+<a href="#hx3">Invasion</a>
+<a href="#hx4">Burnt Hair</a>
+<a href="#hx5">Going to Normal</a>
+<a href="#hx6">Usual Paradox</a>
+<a href="#hx7">Looping</a>
+
+</div>
+
+
+<section id="hx1" class="chapter-box">
+
+<h2>Hx1 – The Beginning</h2>
+
+<div class="chapter-meta">
+Parin • 12 October 2025
+</div>
+
+<pre>
+Santa came at night,
+With boots so tight,
+He shouted loud,
+And started a fight.
+
+Hey jingle bell, jingle bell,
+Kick face all the way,
+Monica stood strong,
+But Santa made her sway.
+
+Ben held a badge,
+Charlie held the time,
+Paraoh built machines,
+Diamode made them shine.
+
+Hey jingle bell, jingle bell,
+Slap face in the snow,
+Santa tied his laces,
+And shouted "Here we go!"
+
+The fight went on,
+Till morning light,
+Cookies broke,
+But faces were right.
+
+Hey jingle bell, jingle bell,
+Kick face all the way,
+This is Hyphnyxys,
+A brand-new play.
+</pre>
+
+</section>
+
+
+<section id="hx2" class="chapter-box">
+
+<h2>Hx2 – Moving Ahead</h2>
+
+<div class="chapter-meta">
+Parin • 17 October 2025
+</div>
+
+<pre>
+(Scene 1)
+Monica: Santa! Santa!
+
+Santa Claus: Ho, ho, ho……. What’s up?
+
+Monica: Mustn’t you be in your factory? Christmas is right here.
+
+Santa Claus: No cap! Yo young lady, that won’t work. Your attempts to ghost yourself and try to escape???
+
+Monica: My goodness…..
+
+(Scene 2)
+Charlie: Come up with something fams?!
+
+Paraoh: Dude, we found Santa’s office, his factory, but his home base???
+
+Ben: Firstly, initiate any form of communication with Monica. Any phones, such devices she has?
+
+Paraoh: I hope so.
+
+Diamonde: Hey guys, what’s the tea up to?
+
+Charlie: Ways to reach Santa.
+
+Diamonde: See, for the initials, we’ve seen, how Santa has kicked, slapped etc. Monica’s face, that’s bizarre.
+
+Ben: Um..hm
+
+Diamonde: That was the first part of the initials, we’ve reached the second I guess. Everything’s already planned.
+
+Paraoh: Fine.
+
+Diamonde: Just chill and vibe with water.
+
+(Scene 1)
+Santa Claus: See, there’s a timeline we’re traveling in. There’s everything capped.
+
+Monica: Is the same traditional story lowkey you want???
+
+Santa Claus: Thinking thinking
+</pre>
+
+</section>
+
+
+<section id="hx3" class="chapter-box">
+
+<h2>Hx3 – Invasion</h2>
+
+<div class="chapter-meta">
+Parin • 21 October 2025
+</div>
+
+<pre>
+Backdrop of previous session- as continuation of V1, Monica was kidnapped by Santa at his home base. Charlie, Ben, Paraoh, Diamonde were stressed out to find any way to reach Monica and save her.
+
+(Scene 1)
+Diamonde: Damn! I’ve got an email from Santa! It’s some sort of coupon for any mid present at Santa’s store.
+
+Ben: Sis, there are also coordinates of his home base.
+
+Diamonde: Ah, seems like a scam.
+
+Ben: Halt, let me trace the coordinates.
+No cap! Dude the location is California!
+
+Charlie: You found the city too right?
+
+Ben: Um Santa has sent this from a city called Santa Monica.
+
+Diamonde: That dude’s insane.
+
+Paraoh: Anyways, let’s go.
+</pre>
+
+</section>
+
+
+<section id="hx4" class="chapter-box">
+
+<h2>Hx4 – Burnt Hair</h2>
+
+<div class="chapter-meta">
+Parin • 25 October 2025
+</div>
+
+<pre>
+(Scene 1)
+Ben: Till Monica’s hair get untangled, delay the Santa so that we get time!
+
+Paraoh: Deploys the malfunctioning snow bot again.
+
+Monica: Hey no! Stop!
+
+(Snow bot fails to obey and crushes one of the light bulb mistakenly)
+
+Monica: The Christmas lights catch fire!
+
+Charlie: Stop the silly fire extinguishers!
+
+Santa: That is to spread the fire…
+
+Charlie: Spread! Your stupidity!
+
+Paraoh: Someone help Monica!
+
+Monica: My hairs are burning!
+
+(A few seconds later the fire goes off)
+
+Monica: Hairs completely burn and gets bald.
+
+Diamonde throws spam email printouts again and Santa slips.
+
+Monica sneezes and suddenly her hair grows again.
+</pre>
+
+</section>
+
+
+<section id="hx5" class="chapter-box">
+
+<h2>Hx5 – Going to Normal</h2>
+
+<div class="chapter-meta">
+Parin • 27 October 2025
+</div>
+
+<pre>
+(Scene 1)
+
+Andromeda appears.
+
+Santa: Woah! Who are you?!
+
+Andromeda: I am Andromeda Estefelwald.
+
+She uses a power on Monica.
+
+Monica's hair glows in rainbow colors.
+
+Charlie: Well that's pretty.
+
+Andromeda disappears and the group escapes Santa's igloo.
+
+(Scene 2)
+
+They reach home and try to relax.
+
+Monica asks Andromeda to fix her hair.
+
+Andromeda says not yet.
+
+Everyone decides to forget everything and go for a peaceful evening walk.
+</pre>
+
+</section>
+
+
+<section id="hx6" class="chapter-box">
+
+<h2>Hx6 – Usual Paradox</h2>
+
+<div class="chapter-meta">
+Parin • 30 October 2025
+</div>
+
+<pre>
+Jingle bells, jingle bells, jingle all the way;
+Santa Claus is written;
+To kick Monica’s face.
+
+Because the line exists;
+Santa finds the place.
+
+The poem writes the action,
+The action keeps the poem alive.
+
+Text makes move,
+Move makes text.
+
+The paradox continues forever.
+</pre>
+
+</section>
+
+
+<section id="hx7" class="chapter-box">
+
+<h2>Hx7 – Looping</h2>
+
+<div class="chapter-meta">
+Aaroh • 2 November 2025
+</div>
+
+<pre>
+Ben: Santa! What have you done! You began a loop!
+
+Santa: Stop blaming me!
+
+Paraoh: What the sigma?
+
+Monica: Santa opened a time loop.
+
+Santa kicks Monica again.
+
+Charlie slaps Santa.
+
+Santa jumps on Charlie's face.
+
+Paraoh and Diamonde run.
+
+Santa chases them with a strange gift box weapon.
+
+Andromeda tries to stop Santa but gets knocked out.
+
+Rigel arrives and drags Andromeda away.
+</pre>
+
+</section>
+
+
+<section id="end" class="chapter-box">
+
+<h2>The End</h2>
+
+</section>
+
+</main>
+
+<script src="../menu.js"></script>
+
+</body>
+</html>

@@ -27,3 +27,23 @@ document.addEventListener("click", (e)=>{
     closeMenu();
   }
 });
+
+/* series card scroll animation */
+
+const cards = document.querySelectorAll(".series-card");
+
+const observer = new IntersectionObserver(entries => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+});
+
+cards.forEach(card => observer.observe(card));

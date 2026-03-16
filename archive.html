@@ -1,21 +1,113 @@
 ```html
 <!doctype html>
 <html lang="en">
+
 <head>
+
 <meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>JBKF Archive</title>
 
 <link rel="stylesheet" href="styles.css">
 
+<style>
+
+/* page title */
+
+.page-title{
+margin-bottom:30px;
+}
+
+/* series list */
+
+.series-list{
+display:flex;
+flex-direction:column;
+gap:35px;
+}
+
+/* series card */
+
+.series-card{
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
+
+background:rgba(255,255,255,0.06);
+
+border-radius:14px;
+
+padding:18px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+/* scroll animation */
+
+.series-card.show{
+opacity:1;
+transform:translateY(0);
+}
+
+/* hover */
+
+.series-card:hover{
+background:rgba(255,255,255,0.14);
+transform:scale(1.02);
+}
+
+/* image */
+
+.series-card img{
+
+width:120px;
+
+height:120px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+/* text */
+
+.series-info h2{
+margin:0 0 6px 0;
+}
+
+.series-info p{
+margin:0;
+opacity:.8;
+}
+
+</style>
+
 </head>
+
 
 <body>
 
 <header class="site-header">
+
 <div class="brand">JBKF</div>
+
 <button id="menuBtn" class="menu-btn">☰</button>
+
 </header>
 
 
@@ -24,7 +116,11 @@
 <button id="menuCloseTop" class="menu-close-top">✕</button>
 
 <ul class="menu-list">
+
 <li><a href="index.html">Home</a></li>
+
+<li><a href="archive.html">Archive</a></li>
+
 </ul>
 
 </aside>
@@ -32,7 +128,7 @@
 
 <main class="container">
 
-<h1>JBKF Archive</h1>
+<h1 class="page-title">JBKF Archive</h1>
 
 <div class="series-list">
 
@@ -41,8 +137,11 @@
 <img src="images/volumes.jpg">
 
 <div class="series-info">
+
 <h2>Volumes</h2>
-<p>Main storyline of the JBKF universe.</p>
+
+<p>Main storyline of the JBKF universe</p>
+
 </div>
 
 </a>
@@ -53,8 +152,11 @@
 <img src="images/classics.jpg">
 
 <div class="series-info">
+
 <h2>Classics</h2>
-<p>Classic stories and early lore.</p>
+
+<p>Early and classic JBKF stories</p>
+
 </div>
 
 </a>
@@ -65,8 +167,11 @@
 <img src="images/brutnut.jpg">
 
 <div class="series-info">
+
 <h2>BrutNut Shorts</h2>
-<p>Short chaotic episodes.</p>
+
+<p>Short chaotic mini episodes</p>
+
 </div>
 
 </a>
@@ -77,8 +182,11 @@
 <img src="images/revivation.jpg">
 
 <div class="series-info">
+
 <h2>Revivation</h2>
-<p>Revival timeline events.</p>
+
+<p>The revival timeline saga</p>
+
 </div>
 
 </a>
@@ -89,8 +197,11 @@
 <img src="images/hyphnyxys.jpg">
 
 <div class="series-info">
+
 <h2>Hyphnyxys</h2>
-<p>Alternate dimension saga.</p>
+
+<p>Alternate dimension storyline</p>
+
 </div>
 
 </a>
@@ -101,8 +212,11 @@
 <img src="images/kickmus.jpg">
 
 <div class="series-info">
+
 <h2>Kickmus</h2>
-<p>Scientific Christmas chaos.</p>
+
+<p>Scientific Christmas chaos</p>
+
 </div>
 
 </a>
@@ -112,9 +226,10 @@
 
 </main>
 
-<script src="app.js"></script>
+
+<script src="mnu.js"></script>
 
 </body>
+
 </html>
 ```
-

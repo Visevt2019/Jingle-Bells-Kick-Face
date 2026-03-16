@@ -119,3 +119,91 @@ body{
   .side-menu{width:100%;right:-100%}
   .side-menu[aria-hidden="false"]{right:0}
 }
+
+/* Archive series layout */
+
+.series-list{
+display:flex;
+flex-direction:column;
+gap:40px;
+margin-top:40px;
+}
+
+/* series cards */
+
+.series-card{
+
+display:flex;
+align-items:center;
+gap:20px;
+
+background:rgba(255,255,255,0.06);
+
+border-radius:14px;
+
+padding:18px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+/* card animation when visible */
+
+.series-card.show{
+opacity:1;
+transform:translateY(0);
+}
+
+/* image */
+
+.series-card img{
+
+width:120px;
+height:120px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+/* text */
+
+.series-info h2{
+margin:0 0 6px 0;
+}
+
+.series-info p{
+margin:0;
+opacity:.8;
+}
+
+/* hover effect */
+
+.series-card:hover{
+
+background:rgba(255,255,255,0.12);
+
+transform:scale(1.02);
+
+}
+
+.chapter-box{
+
+background:rgba(255,255,255,0.06);
+
+padding:20px;
+
+border-radius:12px;
+
+margin-bottom:30px;
+
+}

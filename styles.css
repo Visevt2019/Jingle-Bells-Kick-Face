@@ -124,12 +124,6 @@ body{
 }
 
 
-/* PAGES */
-
-.page{display:none}
-.page.active{display:block}
-
-
 /* HERO */
 
 .hero{
@@ -331,29 +325,32 @@ body{
 }
 
 
-/* LISTS */
+/* CHAPTER LIST (VERTICAL LIST) */
 
-.list{
-  list-style:none;
-  padding:0;
-  margin:0;
+.chapter-list{
   display:flex;
   flex-direction:column;
   gap:10px;
+  margin-bottom:40px;
+  max-width:300px;
 }
 
-.list .item{
-  padding:12px;
-  border-radius:10px;
-  border:1px solid var(--edge);
+.chapter-list a{
+  display:block;
+  padding:12px 14px;
   background:var(--card);
-  cursor:pointer;
+  border:1px solid var(--edge);
+  border-radius:10px;
+  text-decoration:none;
+  color:#111;
+  font-weight:600;
+  transition:.2s;
 }
 
-.meta{
-  color:var(--muted);
-  font-size:13px;
-  margin-top:6px;
+.chapter-list a:hover{
+  background:#ffffff;
+  transform:translateX(4px);
+  box-shadow:0 6px 14px rgba(0,0,0,0.06);
 }
 
 

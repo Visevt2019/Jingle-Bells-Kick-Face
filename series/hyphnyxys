@@ -67,20 +67,20 @@ font-family:inherit;
 <body>
 
 <header class="site-header">
-
 <div class="brand">JBKF</div>
-
 <button id="menuBtn" class="menu-btn">☰</button>
-
 </header>
+
 
 <aside id="sideMenu" class="side-menu" aria-hidden="true">
 
 <button id="menuCloseTop" class="menu-close-top">✕</button>
 
 <ul class="menu-list">
+
 <li><a href="../index.html">Home</a></li>
 <li><a href="../archive.html">Archive</a></li>
+
 </ul>
 
 </aside>
@@ -91,8 +91,9 @@ font-family:inherit;
 <h1 class="page-title">Hyphnyxys</h1>
 
 <p class="series-intro">
-Some story...
+Some reforms
 </p>
+
 
 <h2>Chapters</h2>
 
@@ -109,9 +110,10 @@ Some story...
 </div>
 
 
+
 <section id="hx1" class="chapter-box">
 
-<h2>Hx1 – The Beginning</h2>
+<h2>Hx 1 – The Beginning</h2>
 
 <div class="chapter-meta">
 Parin • 12 October 2025
@@ -152,9 +154,10 @@ A brand-new play.
 </section>
 
 
+
 <section id="hx2" class="chapter-box">
 
-<h2>Hx2 – Moving Ahead</h2>
+<h2>Hx 2 – Moving Ahead</h2>
 
 <div class="chapter-meta">
 Parin • 17 October 2025
@@ -177,7 +180,7 @@ Charlie: Come up with something fams?!
 
 Paraoh: Dude, we found Santa’s office, his factory, but his home base???
 
-Ben: Firstly, initiate any form of communication with Monica. Any phones, such devices she has?
+Ben: Firstly, initiate any form of communication with Monica.
 
 Paraoh: I hope so.
 
@@ -185,17 +188,17 @@ Diamonde: Hey guys, what’s the tea up to?
 
 Charlie: Ways to reach Santa.
 
-Diamonde: See, for the initials, we’ve seen, how Santa has kicked, slapped etc. Monica’s face, that’s bizarre.
+Diamonde: For the initials we’ve seen Santa kick Monica’s face.
 
 Ben: Um..hm
 
-Diamonde: That was the first part of the initials, we’ve reached the second I guess. Everything’s already planned.
+Diamonde: Everything’s already planned.
 
 Paraoh: Fine.
 
 Diamonde: Just chill and vibe with water.
 
-(Scene 1)
+(Scene 3)
 Santa Claus: See, there’s a timeline we’re traveling in. There’s everything capped.
 
 Monica: Is the same traditional story lowkey you want???
@@ -206,84 +209,162 @@ Santa Claus: Thinking thinking
 </section>
 
 
+
 <section id="hx3" class="chapter-box">
 
-<h2>Hx3 – Invasion</h2>
+<h2>Hx 3 – Invasion</h2>
 
 <div class="chapter-meta">
 Parin • 21 October 2025
 </div>
 
 <pre>
-Backdrop of previous session- as continuation of V1, Monica was kidnapped by Santa at his home base. Charlie, Ben, Paraoh, Diamonde were stressed out to find any way to reach Monica and save her.
+Backdrop of previous session- as continuation of V1, Monica was kidnapped by Santa at his home base. Charlie, Ben, Paraoh, Diamonde were stressed out to find any way to reach Monica and save her. 
+
 
 (Scene 1)
-Diamonde: Damn! I’ve got an email from Santa! It’s some sort of coupon for any mid present at Santa’s store.
+Diamonde: Damn! I’ve got an email from Santa! It’s some sort of coupon for any mid present at Santa’s store. 
 
-Ben: Sis, there are also coordinates of his home base.
+Ben: Sis, there are also coordinates of his home base. 
 
-Diamonde: Ah, seems like a scam.
+Diamonde: Ah, seems like a scam. 
 
-Ben: Halt, let me trace the coordinates.
-No cap! Dude the location is California!
+Ben: Halt, let me trace the coordinates. ( scraping the computer)
+No cap! Dude the location is California! 
 
 Charlie: You found the city too right?
 
-Ben: Um Santa has sent this from a city called Santa Monica.
+Ben: Um Santa has sent this from a city called Santa Monica. 
 
-Diamonde: That dude’s insane.
+Diamonde: That dude’s insane. 
 
-Paraoh: Anyways, let’s go.
+Paraoh: Anyways, let’s go. 
+
+(Scene 2)
+(They all reach at Santa’s base)
+
+Paraoh: Huh. An igloo?! In California?! That too with such a sign?!
+
+( They spot an igloo with a neon sign “Santa’s-Not-Secret-Lair “)
+
+Ben: That’s sus. 
+
+Charlie: Subtle. A real subtle. 
+
+Diamonde: At least there’s WiFi. 
+
+Ben: Focus fam, there’s Monica inside. 
+
+(Scene 3)
+(They sneak in, but Santa’s traps are ridiculous)
+
+Diamonde:(slips on a Candy cane) Aah, a hallway of candy canes that slip you off like banana peels. 
+
+(They spot elves armed with nerf guns and a giant gingerbread man)
+
+Ben: He’s crazy!
+
+Charlie: This is less igloo on North Pole and more of ‘Willy Wonka with anger issues’
+
+(Scene 4)
+( They find Monica tied up with tinsel and Santa guarding her like WWE wrestler)
+
+Santa: Ho Ho Ho. Hold up. Nobody leaves without a face-kick!
+
+Ben: By the law of Christmas, release her!
+
+Paraoh: (Deploys a malfunctioning snow bot that sprays whipped cream everywhere )
+
+Charlie: Distract him!
+
+Diamonde: (Throws the spam email printout at Santa) Here’s your coupon, Claus. 
+
+Santa: (Slips on paper and face plants into the whipped cream) Hoooo!!!
+
+Ben: Come on Monica! Run!
+
+Monica: (Gets her hair tangled in Christmas lights) Ouch!
+
+Paraoh: Oh dear.
 </pre>
 
 </section>
 
 
+
 <section id="hx4" class="chapter-box">
 
-<h2>Hx4 – Burnt Hair</h2>
+<h2>Hx 4 – Burnt Hair</h2>
 
 <div class="chapter-meta">
 Parin • 25 October 2025
 </div>
 
 <pre>
-(Scene 1)
 Ben: Till Monica’s hair get untangled, delay the Santa so that we get time!
 
-Paraoh: Deploys the malfunctioning snow bot again.
+Paraoh: (Deploys the malfunctioning snow bot again, but it attempts to cut Monica’s hair)
 
 Monica: Hey no! Stop!
 
+Paraoh: Get off her head snow bot! 
+
 (Snow bot fails to obey and crushes one of the light bulb mistakenly)
 
-Monica: The Christmas lights catch fire!
+Monica: (The Christmas lights catch fire) Aaaah! Help! Aaaaaaaaaaahh!!!
 
-Charlie: Stop the silly fire extinguishers!
+Santa: Fire? In my igloo? This is ridiculous. You’ll be prosecuted for……
 
-Santa: That is to spread the fire…
+(Fire extinguishing system starts to spray kerosene)
+
+Charlie: Stop the silly fire extinguishers! Dumb Santa!
+
+Santa: You mean smart? That is to spread the fire….
 
 Charlie: Spread! Your stupidity!
 
+Santa: Bro, let me explain. You see as the fire spreads, the igloo melts. As the igloo melts, it drops ice on fire. And in turn that extinguishes it!
+
+Charlie: I’ve no words….
+
 Paraoh: Someone help Monica!
 
-Monica: My hairs are burning!
+Monica: Aaaah! My hairs are burning! (Ice falls and punches her hair) Ouch!
+
+Paraoh: Oh poor Monica! We’re so sorry, we’re helpless. 
 
 (A few seconds later the fire goes off)
 
-Monica: Hairs completely burn and gets bald.
+Monica: (Hairs completely burn and gets bald) No way! (Starts crying)
 
-Diamonde throws spam email printouts again and Santa slips.
+Santa: What now?
 
-Monica sneezes and suddenly her hair grows again.
+Diamonde: (throws spam email printouts again) Take it Santa!
+
+Santa: (again face plants, but on the ash) Hoooo!
+
+(The ash flies and drops over Monica)
+
+Monica:(sneezes) Achooo!
+
+Diamonde: Come on Monica! Run!
+
+Monica: What’s happening? (Her hairs grow again) My hairs?
+
+Paraoh: Aren’t those weird?
+
+Ben: Her hairs grew again but fiber optic cables??? 
+
+Monica: My hairs grew as fiber optic cables??!! OMG!
 </pre>
 
 </section>
 
 
+
 <section id="hx5" class="chapter-box">
 
-<h2>Hx5 – Going to Normal</h2>
+<h2>Hx 5 – Going to Normal</h2>
 
 <div class="chapter-meta">
 Parin • 27 October 2025
@@ -291,103 +372,157 @@ Parin • 27 October 2025
 
 <pre>
 (Scene 1)
-
-Andromeda appears.
+Andromeda: (Appears from nowhere) here I am girl! 
 
 Santa: Woah! Who are you?!
 
-Andromeda: I am Andromeda Estefelwald.
+Andromeda: Let me introduce myself, I am Andromeda Estefelwald, I have 93% in 5th year of MA in slapping face. I am here to….
 
-She uses a power on Monica.
+Santa: That explains everything. Anyways, no foreign characters allowed!
 
-Monica's hair glows in rainbow colors.
+Andromeda: Nah, I’m temporary, I’ll appear wherever needed. 
 
-Charlie: Well that's pretty.
+Santa: Hmmm. That’s fair, as you seem to have experience. 
 
-Andromeda disappears and the group escapes Santa's igloo.
+Andromeda: Choo! (Tried something on Monica)
+
+Monica: (hairs i.e. the fiber optic glow in rainbow colors) What’s happening?
+
+Charlie: Well that’s pretty.
+
+Andromeda: (disappears) Bye guys, Monica run! 
+
+(The squad runs out the igloo) 
 
 (Scene 2)
+(They reach home) 
 
-They reach home and try to relax.
+Monica: Oh... Finally!
 
-Monica asks Andromeda to fix her hair.
+Paraoh: Poor Monica! So much trouble comes up to you!
 
-Andromeda says not yet.
+Andromeda: (Reappears) Yes dear, that's why I'm here.
 
-Everyone decides to forget everything and go for a peaceful evening walk.
+Monica: Please turn my hair back to normal!
+
+Andromeda: Sorry, not yet.
+
+Ben: Anyways, thanks for the help.
+
+Andromeda: (Disappears) No problem!
+
+Diamonde: I think everything's normal.
+
+Paraoh: Let's just forget about what had happened.
+
+Ben: Yeah, let's go for an evening walk on the promenade.
+
+Charlie: Okay, just chill and have some peaceful and leisurely time now, after all that struggle.
+
+Monica: True.
 </pre>
 
 </section>
 
 
+
 <section id="hx6" class="chapter-box">
 
-<h2>Hx6 – Usual Paradox</h2>
+<h2>Hx 6 – Usual Paradox</h2>
 
 <div class="chapter-meta">
 Parin • 30 October 2025
 </div>
 
 <pre>
-Jingle bells, jingle bells, jingle all the way;
-Santa Claus is written;
-To kick Monica’s face.
+Jingle bells, jingle bells, jingle all the way;  
+Santa Claus is written;  
+To kick Monica’s face.  
+Hey, jingle bells, jingle bells, jingle all the way;  
+Because the line exists;  
+Santa finds the place.  
 
-Because the line exists;
-Santa finds the place.
+Santa Claus was typed, he slid in;  
+The stanza said “kick,”  
+So Santa learned the pace.  
+Santa Claus did kick, he kicked;  
+The poem stated it;  
+And therefore set the pace.  
 
-The poem writes the action,
-The action keeps the poem alive.
+Charlie, Ben and Paraoh ran;  
+Diamonde clipped the beat;  
+They queued a rescue trace.  
+Monica dropped a clap, she logged;  
+The chorus rewrote itself;  
+But the line kept looping space.  
 
-Text makes move,
-Move makes text.
-
-The paradox continues forever.
+It is written: Santa kicks face;  
+Because it’s written, he kicks;  
+Because he kicks, the verse persists.  
+Jingle spins, repeat the case;  
+Text makes move, move makes text;  
+They keep paradox on the fix.
 </pre>
 
 </section>
 
 
+
 <section id="hx7" class="chapter-box">
 
-<h2>Hx7 – Looping</h2>
+<h2>Hx 7 – Looping</h2>
 
 <div class="chapter-meta">
 Aaroh • 2 November 2025
 </div>
 
 <pre>
-Ben: Santa! What have you done! You began a loop!
+Ben:Santa! What have you done! You began a loop!
 
-Santa: Stop blaming me!
+Santa:Stop blaming me or else I will make you fanum tax my kicks.Cap! It wasn't me! It was your so called "poem"!
 
-Paraoh: What the sigma?
+(Ben jumps to destroy the poem by tearing it but Santa fanum taxed his leg and pulls him back.)
 
-Monica: Santa opened a time loop.
+Paraoh:What the sigma?
 
-Santa kicks Monica again.
+Monica:Santa opened a time loop.
 
-Charlie slaps Santa.
+(Santa kicks Monica's face.)
 
-Santa jumps on Charlie's face.
+Santa:Fanum tax my kicks haha!
 
-Paraoh and Diamonde run.
+Charlie:How dare you? 
+(Slaps Santa's face.)
 
-Santa chases them with a strange gift box weapon.
+Santa:That does it!
 
-Andromeda tries to stop Santa but gets knocked out.
+(Santa let's Ben go and jumps on Charlie's face.)
 
-Rigel arrives and drags Andromeda away.
+Paraoh and Diamonde:Skibidi Santa!
+
+(They run.Santa runs after then with a gift box in his hand and points it towards Diamonde and out comes a mechanical hand and pushes Diamonde who falls flat on snow.)
+
+Andromeda:Paraoh! Run before he gets you and fanum taxes you.WATCH OUT!
+
+(Paraoh slips on snow and falls flat on his face.)
+
+Andromeda:There he gets fanum taxed.Well I have a 93 percentage on my SLAPPING MA! Say goodbye!
+
+(Andromeda slaps Santa but kicks her and knocks her out because he has 1400/100 in his Kicking MA.Santa runs back to kidnap Monica but a digital notification to let someone in appears in front of him and he gets knocked out by smashing his face accidentally on the yes button.)
+
+Rigel:OK let's see Andromeda.Ouch! Ok come with me you have work to do. (Dragging Andromeda back.)
 </pre>
 
 </section>
 
 
-<section id="end" class="chapter-box">
+
+<section class="chapter-box">
 
 <h2>The End</h2>
 
 </section>
+
 
 </main>
 

@@ -70,18 +70,26 @@ background:rgba(255,255,255,0.14);
 transform:scale(1.02);
 }
 
-/* image */
+/* ARCHIVE SERIES IMAGES */
+.series-card img {
+  width: 220px;        /* larger image on desktop */
+  height: auto;        /* keep natural ratio */
+  object-fit: contain; /* no cropping */
+  border-radius: 10px;
+}
 
-.series-card img{
-
-width:120px;
-
-height:120px;
-
-object-fit:cover;
-
-border-radius:10px;
-
+/* Mobile: full width image above text */
+@media (max-width:900px){
+  .series-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .series-card img {
+    width: 100%;       /* full width on mobile */
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* text */

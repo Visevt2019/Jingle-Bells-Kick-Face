@@ -263,56 +263,69 @@ body{
 
 
 /* ARCHIVE SERIES */
-
-.series-list{
-  display:flex;
-  flex-direction:column;
-  gap:40px;
-  margin-top:40px;
+.series-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
 }
 
-.series-card{
-  display:flex;
-  align-items:center;
-  gap:20px;
-  background:var(--card);
-  border-radius:14px;
-  padding:18px;
-  text-decoration:none;
-  color:#111;
-  border:1px solid var(--edge);
-  transition:.3s;
-  opacity:0;
-  transform:translateY(40px);
+.series-card {
+  display: flex;
+  flex-direction: row;        /* desktop: image left, text right */
+  align-items: flex-start;
+  gap: 20px;
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px;
+  text-decoration: none;
+  color: #111;
+  border: 1px solid var(--edge);
+  transition: .3s;
+  opacity: 0;
+  transform: translateY(40px);
 }
 
-.series-card.show{
-  opacity:1;
-  transform:translateY(0);
+.series-card.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.series-card img{
-  width:120px;
-  height:120px;
-  object-fit:cover;
-  border-radius:10px;
+.series-card img {
+  width: 200px;              /* larger image on desktop */
+  height: auto;              /* keep natural ratio */
+  object-fit: contain;       /* no cropping */
+  border-radius: 10px;
 }
 
-.series-info h2{
-  margin:0 0 6px 0;
-  color:#111;
+.series-info h2 {
+  margin: 0 0 6px 0;
+  color: #111;
 }
 
-.series-info p{
-  margin:0;
-  color:var(--muted);
+.series-info p {
+  margin: 0;
+  color: var(--muted);
 }
 
-.series-card:hover{
-  transform:scale(1.02);
-  box-shadow:0 10px 24px rgba(0,0,0,0.08);
+.series-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
 }
 
+/* Mobile: stack image above text, full width */
+@media (max-width:900px){
+  .series-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .series-card img {
+    width: 100%;             /* full width on mobile */
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 /* CHAPTER BOXES */
 

@@ -325,49 +325,54 @@ body{
 }
 
 
-/* CHAPTER LIST (VERTICAL LIST) */
-
-.chapter-list{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-  margin-bottom:40px;
-  max-width:300px;
+/* CHARACTER LIST (updated from grid) */
+.characters-grid {
+  display: block;            /* stack items vertically */
+  max-width: 90%;            /* leave margin from screen edges */
+  margin: 24px auto;         /* center the list */
 }
 
-.chapter-list a{
-  display:block;
-  padding:12px 14px;
-  background:var(--card);
+.char-card {
+  display: flex;             /* image + text side by side */
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 32px;       /* spacing between cards */
+  padding: 16px;
+  background:#fff;
   border:1px solid var(--edge);
+  border-radius:12px;
+}
+
+.char-name {
+  font-weight:900;
+  margin-bottom:8px;
+}
+
+.char-img {
+  width: auto;               /* keep natural ratio */
+  max-width: 320px;          /* enlarge but not too huge */
+  height: auto;              /* no cropping */
   border-radius:10px;
-  text-decoration:none;
-  color:#111;
-  font-weight:600;
-  transition:.2s;
+  background:#e9e6e6;
 }
 
-.chapter-list a:hover{
-  background:#ffffff;
-  transform:translateX(4px);
-  box-shadow:0 6px 14px rgba(0,0,0,0.06);
+.char-desc {
+  color:var(--muted);
+  font-size:15px;
 }
 
-
-/* MOBILE */
-
-@media (max-width:700px){
-
-  .container{margin-top:100px}
-
-  .hero-title{font-size:36px}
-
-  .characters-grid{grid-template-columns:1fr}
-
-  .side-menu{
-    width:100%;
-    right:-100%;
+/* Mobile: stack image above text */
+@media (max-width:900px){
+  .char-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+  .char-img {
+    max-width: 100%;
+  }
+}
 
   .side-menu[aria-hidden="false"]{
     right:0;

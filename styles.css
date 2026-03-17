@@ -333,7 +333,7 @@ body{
 }
 
 .char-card {
-  display: flex;             /* image + text side by side */
+  display: flex;             /* image + text side by side on desktop */
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
@@ -351,7 +351,7 @@ body{
 
 .char-img {
   width: auto;               /* keep natural ratio */
-  max-width: 320px;          /* enlarge but not too huge */
+  max-width: 320px;          /* enlarge but not too huge on desktop */
   height: auto;              /* no cropping */
   border-radius:10px;
   background:#e9e6e6;
@@ -362,7 +362,7 @@ body{
   font-size:15px;
 }
 
-/* Mobile: stack image above text */
+/* Mobile: stack image above text, full width */
 @media (max-width:900px){
   .char-card {
     flex-direction: column;
@@ -370,7 +370,9 @@ body{
     text-align: center;
   }
   .char-img {
-    max-width: 100%;
+    width: 100%;             /* full width on mobile */
+    max-width: 100%;         /* no limit */
+    height: auto;            /* keep natural ratio */
   }
 }
 

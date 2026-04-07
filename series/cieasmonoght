@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>JBKF – Kickmus</title>
+
+<link rel="stylesheet" href="../styles.css">
+
+<style>
+
+.page-title{
+margin-bottom:10px;
+}
+
+.series-intro{
+opacity:.8;
+margin-bottom:30px;
+}
+
+.chapter-list {
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-bottom:40px;
+}
+
+.chapter-list a{
+display:block;
+padding:10px;
+background:rgba(255,255,255,0.06);
+border-radius:10px;
+text-align:center;
+text-decoration:none;
+color:black;
+transition:.2s;
+}
+
+.chapter-list a:hover{
+background:rgba(255,255,255,0.14);
+}
+
+.chapter-box{
+background:rgba(255,255,255,0.06);
+padding:22px;
+border-radius:14px;
+margin-bottom:35px;
+}
+
+.chapter-meta{
+font-size:14px;
+opacity:.7;
+margin-bottom:15px;
+}
+
+pre{
+white-space:pre-wrap;
+line-height:1.6;
+font-family:inherit;
+}
+
+audio{
+margin-top:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="site-header">
+<div class="brand">JBKF</div>
+<button id="menuBtn" class="menu-btn">☰</button>
+</header>
+
+<aside id="sideMenu" class="side-menu" aria-hidden="true">
+<button id="menuCloseTop" class="menu-close-top">✕</button>
+
+<ul class="menu-list">
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+</ul>
+</aside>
+
+
+<main class="container">
+
+<h1 class="page-title">Kickmus</h1>
+
+<p class="series-intro">
+This series is a chaotic sci-fi comedy where Santa crashes into a physics lab and accidentally starts a chain of disasters. Scientists and fam get caught in fights, experiments go wrong, and strange phenomena like quantum entanglement, musical “Quantum Carol,” and frozen equations take over. A hidden time-traveler is revealed, a nuclear reactor nearly explodes, and even robots get infected with their absurd “kick face” logic. As everything spirals out of control, science, music, and paradoxes mix together, leading toward a final loop where events happen simply because they are written—and are written because they happen.
+</p>
+
+<section class="section">
+
+<h2>Characters in the series:</h2>
+
+<div class="characters-grid">
+
+<div class="char-card">
+<div class="char-name">Jessica</div>
+<img class="char-img" src="../images/Jessica.png">
+<div class="char-desc">Head of Department</div>
+</div>
+
+<div class="char-card">
+<div class="char-name">Inverter</div>
+<img class="char-img" src="../images/Inverter.png">
+<div class="char-desc">Assistant Experimentalist</div>
+</div>
+
+<div class="char-card">
+<div class="char-name">Colian</div>
+<img class="char-img" src="../images/Colian.png">
+<div class="char-desc">Cryogenics Specialist</div>
+</div>
+
+<div class="char-card">
+<div class="char-name">Lilputianaleviastin</div>
+<img class="char-img" src="../images/Lilputianaleviastin.png">
+<div class="char-desc">Senior Scientist- Quantum Computing Department</div>
+</div>
+
+
+<div class="char-card">
+<div class="char-name">Asspharagus</div>
+<img class="char-img" src="../images/Asspharagus.png">
+<div class="char-desc">Predoctoral Researcher of Quantum Physics</div>
+</div>
+</div>
+
+</section>
+
+<section class="section">
+
+
+<h2>Chapters</h2>
+
+<div class="chapter-list">
+
+<a href="#ks0">Introduction</a>
+<a href="#ks1">Crash n Clash</a>
+<a href="#ks2">The Surprise Meet</a>
+<a href="#ks3">For the Superposition</a>
+<a href="#ks4">Quantum Carol</a>
+<a href="#ks5">Imposter Among Us</a>
+<a href="#ks6">Frosty Formula</a>
+<a href="#ks7">Kickmus Reactor</a>
+<a href="#ks8">AI Carolbot</a>
+<a href="#ks9">Kickmus Singularity</a>
+
+</div>
+
+<section id="ks" class="chapter-box">
+
+<h2>Leak</h2>
+
+<div class="chapter-meta">
+Parin • 27 November 2025
+</div>
+  
+<audio controls>
+<source src="../media/HxLeak.mp3" type="audio/mp3">
+</audio>
+
+</section>
+
+
+<section id="ks0" class="chapter-box">
+
+<h2>Ks 0 – Introduction</h2>
+
+<div class="chapter-meta">
+Parin • 29 November 2025
+</div>
+
+<pre>
+Hey jingle bells jingle bells jingle all the way,
+Santa Claus broke in,
+The physics laboratory. 
+
+Hey jingle bells jingle bells jingle all the way,
+The surprise meet has occurred
+To kick everyone’s face!
+
+Going through the quantum Carol,
+With the frosty formula,
+Search the kickmus reactor,
+And the kickmus singularity. 
+
+Hey jingle bells jingle bells jingle all the way,
+Here the series comes, 
+To hit, kick, destroy, compress, expand and beautify face. 
+Also come there to here 
+Special kick the face!
+</pre>
+
+</section>
